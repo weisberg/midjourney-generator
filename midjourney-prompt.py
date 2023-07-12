@@ -18,7 +18,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.subheader("Aspect Ratio")
-    aspect_ratios = ["1:1 (Default)", "4:3", "3:4", "16:9", "9:16", "4:5", "5:4", "21:9", "9:21", "2:3", "3:2", "8.5:11", "11:8.5", "210:297", "297:210"]
+    aspect_ratios = ["1:1 (Default)", "4:3", "3:4", "16:9", "9:16", "4:5", "5:4", "21:9", "9:21", "2:3", "3:2", "85:110", "11:8.5", "210:297", "297:210"]
     aspect_ratio = st.selectbox("Select aspect ratio", aspect_ratios)
 
     st.subheader("Style")
